@@ -26,12 +26,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; /* At least full viewport height */
 }
 
 .content {
-    width: 32rem;
-    height: 49.9rem;
+    width: 90%;
+    max-width: 32rem;
+    min-height: 49.9rem;
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
